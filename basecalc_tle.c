@@ -22,7 +22,7 @@ int setDecNumber(int decVal);
 int setBinNumber(int charVal);
 int setOctNumber(int charVal);
 int setHexNumber(int charVal);
-void resetConvertedValues();
+void resetConvertedValues(void);
 int isHexNumber(int charVal);
 int isOctNumber(int charVal);
 int isBinNumber(int charVal);
@@ -75,7 +75,7 @@ int setHexNumber(int charVal)
     return hexTotal;
 }
 
-void resetConvertedValues()
+void resetConvertedValues(void)
 {
     decimalTotal = 0;
     binaryTotal = 0;
